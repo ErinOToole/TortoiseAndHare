@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="653.0" prefWidth="581.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="tortoiseandhare.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextArea fx:id="txtTortoise" layoutX="26.0" layoutY="37.0" prefHeight="562.0" prefWidth="259.0" />
+      <TextArea fx:id="txtHare" layoutX="300.0" layoutY="37.0" prefHeight="562.0" prefWidth="259.0" />
+    </children>
+</AnchorPane>
